@@ -1,0 +1,6 @@
+{
+  "name": "Apex Iron Athletics",
+  "description": "High-converting, ultra-modern website for Apex Iron Athletics — a premium 24/7 fitness club featuring state-of-the-art equipment, elite coaching, and luxury recovery suites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

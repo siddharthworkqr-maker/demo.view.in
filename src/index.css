@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Montserrat', 'Anton', sans-serif;
+    --font-impact: 'Anton', 'Montserrat', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --color-gold: #FFD700;
+    --color-gold-glow: rgba(255, 215, 0, 0.2);
+    --color-obsidian: #0B0B0B;
+    --color-card: #161616;
+    --color-card-active: #1a1a1a;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0B0B0B;
+    color: #F3F4F6;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.04em;
+  }
+
+  .font-impact {
+    font-family: var(--font-impact);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Professional Polish Gritty Industrial Accents & Gold Glows */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.22);
+}
+
+.gold-glow-lg {
+  box-shadow: 0 0 45px rgba(255, 215, 0, 0.35);
+}
+
+.gold-border-glow {
+  border-color: rgba(255, 215, 0, 0.4);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+}
+
+.subtle-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.carbon-pattern {
+  background-color: #0d0d0d;
+  background-image: radial-gradient(rgba(255, 215, 0, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD700;
+}
+
